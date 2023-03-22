@@ -1,0 +1,13 @@
+2023/03/16-17:44:47.840 35ec Reusing MANIFEST C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.d4d07d0d\flutter_tools_chrome_device.5998042b\Default\Sync Data\LevelDB/MANIFEST-000001
+2023/03/16-17:44:47.841 35ec Recovering log #4
+2023/03/16-17:44:47.843 35ec Reusing old log C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.d4d07d0d\flutter_tools_chrome_device.5998042b\Default\Sync Data\LevelDB/000004.log 
+2023/03/16-17:44:47.844 35ec Delete type=0 #3
+2023/03/16-17:48:55.382 33f8 Level-0 table #8: started
+2023/03/16-17:48:55.415 33f8 Level-0 table #8: 103931 bytes OK
+2023/03/16-17:48:55.422 33f8 Delete type=0 #4
+2023/03/16-18:52:27.260 42c Level-0 table #10: started
+2023/03/16-18:52:27.695 42c Level-0 table #10: 101261 bytes OK
+2023/03/16-18:52:27.701 42c Delete type=0 #7
+2023/03/16-19:10:35.040 42c Level-0 table #12: started
+2023/03/16-19:10:35.080 42c Level-0 table #12: 100500 bytes OK
+2023/03/16-19:10:35.087 42c Delete type=0 #9
