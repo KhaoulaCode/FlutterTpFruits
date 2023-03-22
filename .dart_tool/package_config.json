@@ -104,8 +104,20 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "nested",
+      "rootUri": "file:///C:/Users/Khaoula/AppData/Local/Pub/Cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path",
       "rootUri": "file:///C:/Users/Khaoula/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///C:/Users/Khaoula/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -170,7 +182,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-03-16T13:04:48.549074Z",
+  "generated": "2023-03-22T13:51:00.800365Z",
   "generator": "pub",
   "generatorVersion": "2.19.0"
 }

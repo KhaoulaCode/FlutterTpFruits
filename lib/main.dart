@@ -2,13 +2,19 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
+import 'package:provider/provider.dart';
+import 'cartModel.dart';
 import 'fruits_master.dart';
 import 'fruit.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => CartModel(),
+      child: MyApp(),
+    ),
+  );
 }
-
 class MyApp extends StatelessWidget {
   final dio = Dio();
 
@@ -22,6 +28,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Fruits',
       theme: ThemeData(primaryColor: Colors.white),
+      
       home: FruitsMaster(),
     );
   }
