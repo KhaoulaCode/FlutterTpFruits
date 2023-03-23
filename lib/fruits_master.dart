@@ -32,7 +32,7 @@ class _FruitsMasterState extends State<FruitsMaster> {
   Future<List<Fruit>> _fetchFruits() async {
     List<Fruit> fruits = [];
     try {
-      Response response = await dio.get('https://fruits.shrp.dev/items/fruits');
+      Response response = await dio.get('https://fruits.shrp.dev/items/fruits?fields=*.*');
       if (response.statusCode == 200 || response.statusCode == 304) {
         var getFruitsData = response.data['data'];
 

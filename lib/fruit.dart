@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'country.dart';
 
 class Fruit {
   final int id;
@@ -7,8 +8,8 @@ class Fruit {
   final num price;
   final String img;
   final int? stock;
-  final int? origine;
-  final String? season;
+  final Country origine;
+  final String season;
 
   Fruit(
       {required this.id,
@@ -38,7 +39,7 @@ class Fruit {
       price: parsedJson['price'],
       color: parsedJson['color'],
       stock: parsedJson['stock'],
-      origine: parsedJson['origin'],
+      origine: Country.fromJson(parsedJson['origin']),
       season: parsedJson['season'],
       img: parsedJson['image'],
     );
