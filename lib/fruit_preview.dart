@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tp_fruits/cartModel.dart';
-import 'fruits_master.dart';
+import 'quantity_badge.dart';
 import 'fruit_details.dart';
 import 'fruit.dart';
 
@@ -27,25 +27,32 @@ class FruitPreview extends StatelessWidget {
     }
 
       return ListTile(
-        title: Text(fruit.name.toString()),
-        trailing: IconButton(
-          icon: Icon(Icons.add),
-          onPressed: () => {cart.addFruit(fruit), _showSnackBar(fruit, Colors.green,'ajouté')},
-        ),
-        tileColor: fruit.convertToColor(fruit.color),
-        leading: Image(
-          image: AssetImage('images/${fruit.img}'),
-          width: 40,
-          height: 40,
-          fit: BoxFit.cover,
-        ),
-        onTap: () => {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => FruitDetails(fruit: fruit)),
-          )
-        },
-      );
+              title: Text(fruit.name.toString()),
+              trailing: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  QuantityBadge(qty: cart.nbFruitCart(fruit)),
+                  IconButton(
+                    icon: Icon(Icons.add),
+                    onPressed: () => {
+                      cart.addFruit(fruit), 
+                      _showSnackBar(fruit, Colors.green,'ajouté')
+                    },
+                  ),
+                ],
+              ),
+              tileColor: fruit.convertToColor(fruit.color),
+              onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => FruitDetails(fruit: fruit)),
+              ),
+              leading: Image(
+                image: AssetImage('images/${fruit.img}'),
+                width: 40,
+                height: 40,
+                fit: BoxFit.cover,
+              ),
+            );
     });
   }
 }

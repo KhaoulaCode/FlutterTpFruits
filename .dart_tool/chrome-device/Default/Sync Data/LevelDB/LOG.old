@@ -1,18 +1,11 @@
-2023/03/22-20:42:43.782 4e54 Reusing MANIFEST C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.8de8b7d9\flutter_tools_chrome_device.37b6c4c4\Default\Sync Data\LevelDB/MANIFEST-000001
-2023/03/22-20:42:43.783 4e54 Recovering log #14
-2023/03/22-20:42:43.786 4e54 Reusing old log C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.8de8b7d9\flutter_tools_chrome_device.37b6c4c4\Default\Sync Data\LevelDB/000014.log 
-2023/03/22-20:42:43.788 4e54 Delete type=0 #3
-2023/03/22-20:42:43.788 4e54 Delete type=0 #4
-2023/03/22-20:42:43.788 4e54 Delete type=0 #11
-2023/03/22-20:43:28.734 46dc Level-0 table #18: started
-2023/03/22-20:43:28.740 46dc Level-0 table #18: 103118 bytes OK
-2023/03/22-20:43:28.744 46dc Delete type=0 #14
-2023/03/22-20:43:28.744 4ba8 Compacting 4@0 + 1@1 files
-2023/03/22-20:43:28.754 4ba8 Generated table #19@0: 38 keys, 3212 bytes
-2023/03/22-20:43:28.754 4ba8 Compacted 4@0 + 1@1 files => 3212 bytes
-2023/03/22-20:43:28.761 4ba8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/03/22-20:43:28.762 4ba8 Delete type=2 #8
-2023/03/22-20:43:28.762 4ba8 Delete type=2 #10
-2023/03/22-20:43:28.762 4ba8 Delete type=2 #12
-2023/03/22-20:43:28.762 4ba8 Delete type=2 #15
-2023/03/22-20:43:28.762 4ba8 Delete type=2 #18
+2023/03/22-21:03:25.181 175c Reusing MANIFEST C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.cd3d845\flutter_tools_chrome_device.3514b2bb\Default\Sync Data\LevelDB/MANIFEST-000001
+2023/03/22-21:03:25.182 175c Recovering log #17
+2023/03/22-21:03:25.184 175c Reusing old log C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.cd3d845\flutter_tools_chrome_device.3514b2bb\Default\Sync Data\LevelDB/000017.log 
+2023/03/22-21:03:25.187 175c Delete type=0 #3
+2023/03/22-21:03:25.187 175c Delete type=0 #4
+2023/03/22-21:03:25.187 175c Delete type=2 #8
+2023/03/22-21:03:25.187 175c Delete type=2 #10
+2023/03/22-21:03:25.187 175c Delete type=0 #11
+2023/03/22-21:03:25.187 175c Delete type=2 #12
+2023/03/22-21:03:25.187 175c Delete type=0 #14
+2023/03/22-21:03:25.187 175c Delete type=2 #15
