@@ -1,6 +1,8 @@
 # tp_fruits
 
-A new Flutter project.
+TP que j'essaye d'avancer encore sur, c'est le TP09
+
+Travail individuel : Khaoula BOULHDIR
 
 ## Getting Started
 
