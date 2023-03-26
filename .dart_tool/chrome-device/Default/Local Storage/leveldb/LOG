@@ -1,4 +1,7 @@
-2023/03/25-15:01:09.390 2ed0 Reusing MANIFEST C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.de233bd9\flutter_tools_chrome_device.69fcb8d\Default\Local Storage\leveldb/MANIFEST-000001
-2023/03/25-15:01:09.393 2ed0 Recovering log #4
-2023/03/25-15:01:09.397 2ed0 Reusing old log C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.de233bd9\flutter_tools_chrome_device.69fcb8d\Default\Local Storage\leveldb/000004.log 
-2023/03/25-15:01:09.400 2ed0 Delete type=0 #3
+2023/03/25-21:58:03.055 2e0 Reusing MANIFEST C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.943a5df7\flutter_tools_chrome_device.3664fc96\Default\Local Storage\leveldb/MANIFEST-000001
+2023/03/25-21:58:03.057 2e0 Recovering log #4
+2023/03/25-21:58:03.059 2e0 Reusing old log C:\Users\Khaoula\AppData\Local\Temp\flutter_tools.943a5df7\flutter_tools_chrome_device.3664fc96\Default\Local Storage\leveldb/000004.log 
+2023/03/25-21:58:03.060 2e0 Delete type=0 #3
+2023/03/25-22:02:18.262 12bc Level-0 table #8: started
+2023/03/25-22:02:18.267 12bc Level-0 table #8: 11373 bytes OK
+2023/03/25-22:02:18.274 12bc Delete type=0 #4

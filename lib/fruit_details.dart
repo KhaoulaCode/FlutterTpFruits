@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -7,6 +9,7 @@ import 'country.dart';
 import 'fruits_master.dart';
 import 'fruit_preview.dart';
 import 'fruit.dart';
+import 'quantity_badge.dart';
 
 class FruitDetails extends StatelessWidget {
   final Fruit fruit;
@@ -48,7 +51,12 @@ class FruitDetails extends StatelessWidget {
             Text("Tarif à l'unité : " +fruit.price.toStringAsFixed(2).toString() + " €"),
             Consumer<CartModel>(
               builder: (context, cart, child) {
-                return Text('Quantité séléctionnée : ${cart.getQte()}', style: TextStyle(fontSize: 15));
+                return Row(
+                  children: [
+                    const Text('Quantité sélectionnée:  '),
+                    QuantityBadge(qty: cart.nbFruitCart(fruit))
+                  ],
+                );
               },
             ),
             Row(

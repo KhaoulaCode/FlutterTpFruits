@@ -98,6 +98,12 @@
       "languageVersion": "2.16"
     },
     {
+      "name": "jwt_decode",
+      "rootUri": "file:///C:/Users/Khaoula/AppData/Local/Pub/Cache/hosted/pub.dev/jwt_decode-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "latlong2",
       "rootUri": "file:///C:/Users/Khaoula/AppData/Local/Pub/Cache/hosted/pub.dev/latlong2-0.8.1",
       "packageUri": "lib/",
@@ -254,7 +260,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-03-23T14:01:58.311564Z",
+  "generated": "2023-03-26T11:35:48.807116Z",
   "generator": "pub",
   "generatorVersion": "2.19.0"
 }

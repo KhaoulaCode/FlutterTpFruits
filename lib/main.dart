@@ -3,17 +3,22 @@ import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:provider/provider.dart';
 import 'cartModel.dart';
+import 'userProvider.dart';
 import 'fruits_master.dart';
 import 'fruit.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(
-      create: (context) => CartModel(),
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => CartModel()),
+        ChangeNotifierProvider(create: (context) => UserProvider()),
+      ],
       child: MyApp(),
     ),
   );
 }
+
 class MyApp extends StatelessWidget {
   final dio = Dio();
 

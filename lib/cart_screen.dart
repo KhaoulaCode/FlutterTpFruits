@@ -4,6 +4,7 @@ import 'cartModel.dart';
 import 'fruits_master.dart';
 import 'fruit_details.dart';
 import 'fruit.dart';
+import 'auth_form.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
@@ -72,6 +73,9 @@ class CartScreen extends StatelessWidget {
           );
         },
       ),
+      AuthForm(
+        onLogin :(String email, String password)
     );
+    )
   }
 }
